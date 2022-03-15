@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-font-family: 'Poppins', sans-serif;
+    --light-white: #f5f8fa;
+    --grey: #5e6278;
+    --grey-1: #e3e3e3;
+
+    --bg-primary: rgba(87,175,224,1);
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+}
+
+input,button,textarea,select  {
+    box-shadow: none !important;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(#00d4ff, #52defb);
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
+}
+.navbar-brand {
+    color: #f5f8fa;
+    opacity: 9;
+}
+.navbar-brand:hover {
+    color: #f5f8fa;
+    opacity: 4;
+}
+.navbar .nav-link {
+    color: #f5f8fa;
+    font-size: 14px;
+    margin: 0px 12px;
+    opacity: 9;
+}
+
+.navbar .nav-link:hover {
+    opacity: 4;
+    color: #fff;
+}
+
+.last-title {
+    color: #00d4ff;
+}
